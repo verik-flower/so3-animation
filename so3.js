@@ -18,9 +18,11 @@ spinAxis=null;
 //palette=["#CC0D99","#00FFFF","#80FF00","#FF7F00","#9900FF","#FF1A7D"] //psichedelici
 //palette=["#5F1854","#8B104E","#1ABB9C","#F7F7F7","#FF6F61","#6A5ACD"] //bershka
 //palette=["#25283D","#8F3985","#98DFEA","#07BB81","#C61E1E","#FFFFFF"] //bershka2
-palette=["#03045E","#F0F9FD","#00B4D8","#90E0EF","#CAF0F8","#B81111"] //sto decisamente perdendo troppo tempo
+//palette=["#03045E","#F0F9FD","#00B4D8","#90E0EF","#CAF0F8","#B81111"] //sto decisamente perdendo troppo tempo
 //palette=["#1B2651","#CD2028","#FFFFFF","#EDEAE1","#166C96","#DCAF61"] //tommy hilfiger
 //palette=["#FF5E3A","#FF8C00","#FFD700","#FFCC00","#FF6F61","#D5006D"] //sunset
+palette = ["#d3bfe8", "#bb8db3", "#78f4d9", "#b50808", "#cffbf2", "#ffffff"] //maybe this
+
 F = 0;
 
 customAnimate.initApp1 =
