@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SO3 Animation</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- The canvas element must have the ID 'animate' -->
+    <canvas id="animate" width="800" height="600"></canvas>
+
+    <!-- Include your JavaScript files -->
+    <script src="animate.js"></script>
+    <script src="so3.js"></script>
+
+    <script>
+        // Ensure the window's load event triggers the animation initialization
+        window.addEventListener('load', initApp0, false);
+    </script>
+</body>
+</html>
